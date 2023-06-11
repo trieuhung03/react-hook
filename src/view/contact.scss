@@ -1,0 +1,51 @@
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    .single-blog{
+        border: 1px solid grey;
+        border-radius: 3px;
+        padding: 10px;
+        margin: 0 10px;
+        max-width: 400px;
+        text-align: left !important;
+        .content{
+            padding: 10px 0;
+        }
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .right{
+            display: block;
+            float: right;
+        }
+    }
+}
+.btn-add{
+    margin: 10px 0  ;
+    cursor: pointer;
+}
+
+.addnew-container{
+    max-width: 400px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 30px auto;
+    text-align: left;
+    .addnew-text{
+    margin: 10px 0  ;
+    text-align: center;
+    }
+    .input-data{
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-left: 10px;
+    }
+}
